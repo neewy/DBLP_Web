@@ -1,3 +1,4 @@
+<pre>
 8888888 888b    888 888b    888  .d88888b.  8888888b.   .d88888b.  888      8888888  .d8888b. 
   888   8888b   888 8888b   888 d88P" "Y88b 888   Y88b d88P" "Y88b 888        888   d88P  Y88b
   888   88888b  888 88888b  888 888     888 888    888 888     888 888        888   Y88b.     
@@ -15,6 +16,7 @@
 88888P Y88888 888        888    888     888    888 888     888 88888P Y88888 888888   888     888     888
 8888P   Y8888 888        888   d88P     888    888 Y88b. .d88P 8888P   Y8888          888     Y88b. .d88P
 888P     Y888 8888888888 8888888P"      888    888  "Y88888P"  888P     Y888          888      "Y88888P" 
+</pre>
 
 1. To run the application on your own webserver, these prerequisites should be met:
 -constant internet connection (for CDN's like jQuery)
