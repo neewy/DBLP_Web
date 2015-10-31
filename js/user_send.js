@@ -17,7 +17,9 @@ for (i = 0; i < changed.length; i++) {
 
 $('select').each(function() {
     if (($(this).val()) != ($(this).find('option.default').val())) { 
-        obj[$(this).attr('id')]['role'] = $(this).find('option').val();
+        obj[$(this).attr('id')] =  {
+			"role" : $(this).find('option').val();
+		};
     }
 });
 
