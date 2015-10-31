@@ -31,5 +31,5 @@ NB: Use console JAR file, it is awesome!
 
 OR
 
-You can test it online at lolcathost.ru
+You can test it online at <a href="http://lolcathost.ru/">lolcathost.ru</a>
 Enjoy!
