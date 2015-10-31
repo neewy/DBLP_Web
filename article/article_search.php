@@ -47,7 +47,7 @@
               article.number
             FROM 
               dblp.article
-            WHERE mdate='$value';";
+            WHERE mdate='%$value%';";
             } else {
                 $query = "SELECT 
               article.key, 
