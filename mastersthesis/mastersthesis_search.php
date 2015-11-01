@@ -18,7 +18,17 @@
               mastersthesis.school
             FROM 
               dblp.mastersthesis
-            WHERE mdate='{$value}';";
+            WHERE mdate='$value';";
+            } else if ($field === "author"){
+                $query = "SELECT
+              mastersthesis.mdate, 
+              mastersthesis.title,
+              mastersthesis.year, 
+              mastersthesis.school
+            FROM 
+              dblp.mastersthesis
+            JOIN dblp.mastersthesis_author ON mastersthesis.key = mastersthesis_author.key
+            WHERE $field LIKE '$value';";
             } else {
                 $query = "SELECT
               mastersthesis.mdate, 
@@ -27,7 +37,7 @@
               mastersthesis.school
             FROM 
               dblp.mastersthesis
-            WHERE $field LIKE '{$value}';";
+            WHERE $field LIKE '$value';";
             }
         } else {
             if ($field === "mdate") {
@@ -38,7 +48,17 @@
               mastersthesis.school
             FROM 
               dblp.mastersthesis
-            WHERE mdate='{$value}';";
+            WHERE mdate='%$value%';";
+            } else if ($field === "author"){
+                $query = "SELECT
+              mastersthesis.mdate, 
+              mastersthesis.title,
+              mastersthesis.year, 
+              mastersthesis.school
+            FROM 
+              dblp.mastersthesis
+            JOIN dblp.mastersthesis_author ON mastersthesis.key = mastersthesis_author.key
+            WHERE $field LIKE '%$value%';";
             } else {
                 $query = "SELECT
               mastersthesis.mdate, 
@@ -47,7 +67,7 @@
               mastersthesis.school
             FROM 
               dblp.mastersthesis
-            WHERE $field LIKE '%{$value}%';";
+            WHERE $field LIKE '%$value%';";
             }
         }
 		$result = pg_query($d, $query);

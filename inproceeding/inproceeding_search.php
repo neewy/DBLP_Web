@@ -16,6 +16,13 @@
                 FROM 
                   dblp.inproceedings 
                 WHERE mdate='$value';";
+            } else if ($field === "author") {
+                $query = "SELECT DISTINCT
+                    inproceedings.title, inproceedings.year
+                    FROM 
+                      dblp.inproceedings
+                    JOIN dblp.inproceedings_author ON inproceedings.key = inproceedings_author.key
+                    WHERE author='$value';";
             } else {
                 $query = "SELECT DISTINCT
                 inproceedings.title, inproceedings.year
@@ -30,6 +37,13 @@
                 FROM 
                   dblp.inproceedings 
                 WHERE mdate='%$value%'";
+            } else if ($field === "author") {
+                $query = "SELECT DISTINCT
+                    inproceedings.title, inproceedings.year
+                    FROM 
+                      dblp.inproceedings
+                    JOIN dblp.inproceedings_author ON inproceedings.key = inproceedings_author.key
+                    WHERE author='%$value%';";
             } else {
                 $query = "SELECT DISTINCT
                 inproceedings.title, inproceedings.year

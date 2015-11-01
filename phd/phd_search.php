@@ -20,6 +20,17 @@
             FROM 
               dblp.phdthesis
             WHERE mdate='$value';";
+            } else if ($field === "author") {
+                $query = "SELECT
+              phdthesis.mdate, 
+              phdthesis.title, 
+              phdthesis.pages, 
+              phdthesis.year, 
+              phdthesis.school
+            FROM 
+              dblp.phdthesis
+            JOIN dblp.phdthesis_author ON phdthesis.key = phdthesis_author.key
+            WHERE $field LIKE '$value';";
             } else {
                 $query = "SELECT
               phdthesis.mdate, 
@@ -41,7 +52,18 @@
               phdthesis.school
             FROM 
               dblp.phdthesis
-            WHERE mdate='$value';";
+            WHERE mdate='%$value%';";
+            } else if ($field === "author") {
+                $query = "SELECT
+              phdthesis.mdate, 
+              phdthesis.title, 
+              phdthesis.pages, 
+              phdthesis.year, 
+              phdthesis.school
+            FROM 
+              dblp.phdthesis
+            JOIN dblp.phdthesis_author ON phdthesis.key = phdthesis_author.key
+            WHERE $field LIKE '%$value%';";
             } else {
                 $query = "SELECT
               phdthesis.mdate, 

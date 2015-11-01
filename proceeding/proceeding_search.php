@@ -22,6 +22,18 @@
             FROM 
               dblp.proceedings
             WHERE mdate='$value';";
+            } else if ($field === "author") {
+                $query = "SELECT proceedings.editor, 
+              proceedings.title, 
+              proceedings.mdate, 
+              proceedings.year, 
+              proceedings.publisher, 
+              proceedings.isbn, 
+              proceedings.series
+            FROM 
+              dblp.proceedings
+            JOIN dblp.proceedings_author ON proceedings.key = proceedings_author.key
+            WHERE $field LIKE '$value';";
             } else {
                 $query = "SELECT proceedings.editor, 
               proceedings.title, 
@@ -46,6 +58,18 @@
             FROM 
               dblp.proceedings
             WHERE mdate='$value';";
+            } else if ($field === "author") {
+                $query = "SELECT proceedings.editor, 
+              proceedings.title, 
+              proceedings.mdate, 
+              proceedings.year, 
+              proceedings.publisher, 
+              proceedings.isbn, 
+              proceedings.series
+            FROM 
+              dblp.proceedings
+            JOIN dblp.proceedings_author ON proceedings.key = proceedings_author.key
+            WHERE $field LIKE '%$value%';";
             } else {
                 $query = "SELECT proceedings.editor, 
               proceedings.title, 

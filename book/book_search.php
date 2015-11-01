@@ -20,6 +20,17 @@
                 FROM 
                   dblp.book
                 WHERE mdate='$value';";
+            } else if ($field === "author") {
+                $query = "SELECT
+                  book.editor,	
+                  book.title,
+                  book.mdate,
+                  book.year,   
+                  book.isbn
+                FROM 
+                  dblp.book
+            JOIN dblp.book_author ON book_author.key = book.key
+            WHERE $field LIKE '$value';";
             } else {
                 $query = "SELECT
                   book.editor,	
@@ -42,6 +53,17 @@
                 FROM 
                   dblp.book
             WHERE mdate='%$value%';";
+            } else if ($field === "author") {
+                $query = "SELECT
+                  book.editor,	
+                  book.title,
+                  book.mdate,
+                  book.year,   
+                  book.isbn
+                FROM 
+                  dblp.book
+            JOIN dblp.book_author ON book_author.key = book.key
+            WHERE $field LIKE '%$value%';";
             } else {
                 $query = "SELECT
                   book.editor,	

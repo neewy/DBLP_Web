@@ -10,6 +10,7 @@
                             <option>Key</option>
                             <option value="mdate">Date</option>
                             <option>Editor</option>
+                            <option>Author</option>
                             <option>Title</option>
                             <option>Year</option>
                             <option>Journal</option>

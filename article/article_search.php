@@ -22,6 +22,19 @@
             FROM 
               dblp.article
             WHERE mdate='$value';";
+            } else if ($field === "author") {
+                $query = "SELECT 
+              article.key, 
+              article.mdate, 
+              article.title, 
+              article.year, 
+              article.journal, 
+              article.volume, 
+              article.number
+            FROM 
+              dblp.article
+            JOIN dblp.article_author ON article_author.key = article.key
+            WHERE $field LIKE '$value';";
             } else {
                 $query = "SELECT 
               article.key, 
@@ -47,7 +60,20 @@
               article.number
             FROM 
               dblp.article
-            WHERE mdate='%$value%';";
+            WHERE mdate='$value';";
+            } else if ($field === "author") {
+                $query = "SELECT 
+              article.key, 
+              article.mdate, 
+              article.title, 
+              article.year, 
+              article.journal, 
+              article.volume, 
+              article.number
+            FROM 
+              dblp.article
+            JOIN dblp.article_author ON article_author.key = article.key
+            WHERE $field LIKE '%$value%';";
             } else {
                 $query = "SELECT 
               article.key, 

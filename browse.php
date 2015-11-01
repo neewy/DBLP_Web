@@ -303,7 +303,7 @@
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
-					   url: 'incollection_search.php',
+					   url: 'incollection/incollection_search.php',
 					   data: ({"field" : field, "value" : value, "match": match}),
 					   success: function(data)
 					   {

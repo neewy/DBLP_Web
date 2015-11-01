@@ -19,6 +19,16 @@
                   dblp.incollection 
                 WHERE mdate='$value'
                 GROUP BY incollection.title, incollection.mdate, incollection.year;";
+            } else if ($field === "author") {
+                $query = "SELECT  
+                  incollection.mdate, 
+                  incollection.title, 
+                  incollection.year
+                FROM 
+                  dblp.incollection
+                JOIN dblp.incollection_author ON incollection_author.key = incollection.key
+                WHERE $value LIKE '$value'
+                GROUP BY incollection.title, incollection.mdate, incollection.year;";
             } else {
                 $query = "SELECT  
                   incollection.mdate, 
@@ -38,6 +48,16 @@
                 FROM 
                   dblp.incollection 
                 WHERE mdate='%$value%'
+                GROUP BY incollection.title, incollection.mdate, incollection.year;";
+            } else if ($field === "author") {
+                $query = "SELECT  
+                  incollection.mdate, 
+                  incollection.title, 
+                  incollection.year
+                FROM 
+                  dblp.incollection
+                JOIN dblp.incollection_author ON incollection_author.key = incollection.key
+                WHERE $value LIKE '%$value%'
                 GROUP BY incollection.title, incollection.mdate, incollection.year;";
             } else {
                 $query = "SELECT  

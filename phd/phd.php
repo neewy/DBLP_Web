@@ -9,6 +9,7 @@
                                 <option>Key</option>
                                 <option value="mdate">Date</option>
                                 <option>Title</option>
+                                <option>Author</option>
                                 <option>Year</option>
                                 <option>School</option>
                             </select>

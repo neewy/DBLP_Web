@@ -11,6 +11,7 @@
                             <option value="mdate">Date</option>
                             <option>Title</option>
                             <option>Year</option>
+                            <option>Author</option>
                             <option>Journal</option>
                             <option>Volume</option>
                             <option>Number</option>

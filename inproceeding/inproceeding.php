@@ -9,6 +9,7 @@
                         <select id="inproceeding-field">
                             <option>Key</option>
                             <option value="mdate">Date</option>
+                            <option>Author</option>
                             <option>Title</option>
                             <option>Year</option>
                             <option>Number</option>
