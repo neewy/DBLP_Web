@@ -122,6 +122,7 @@
                                     }),
                                     beforeSend: function() {
                                         document.querySelector('.vex-dialog-message').innerHTML = "Wait...";
+                                        document.querySelector('.vex-dialog-buttons').style.display= "none";
                                     },
                                     success: function(data) {
                                         vex.close();
@@ -208,6 +209,7 @@
                                     data: inputsChanged,
                                     beforeSend: function() {
                                         document.querySelector('.vex-dialog-message').innerHTML = "Wait...";
+                                        document.querySelector('.vex-dialog-buttons').style.display= "none";
                                     },
                                     success: function(data) {
                                         vex.close();
@@ -345,6 +347,7 @@
                                     data: inputsChanged,
                                     beforeSend: function() {
                                         document.querySelector('.vex-dialog-message').innerHTML = "Wait...";
+                                        document.querySelector('.vex-dialog-buttons').style.display= "none";
                                     },
                                     success: function(data) {
                                         vex.close();

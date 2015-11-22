@@ -1,30 +1,15 @@
 <?php session_start();
 
-		include('../dbconnection.inc.php');	
-		
-		$key_q = $_POST['key'];
-		$aff_rows = 0;
-		
-        $query_del = "DELETE FROM dblp.inproceedings_author WHERE key LIKE '$key_q'";
-		$result_del = pg_query($d, $query_del);
-		$inprocres_del = pg_affected_rows($result_del);
-		$aff_rows = $aff_rows + $inprocres_del;
 
-        foreach($_POST as $key => $value) {
-            if ($_POST[$key] === '') {
-                $value = 'null';
-            }
+        foreach($_POST as &$value) {
+                if ($value === "") {
+                        $value = "null";
+                } else {
+                        $value = str_replace(' ', '_', $value);
+                }
         }
 
-		foreach($_POST as $key => $value) {
-			if (preg_match("/author/", $key)) {
-						$query_auth = "INSERT INTO dblp.inproceedings_author VALUES ('$key_q','$value');";
-						$result_auth = pg_query($d, $query_auth);
-						$inprocres_auth = pg_affected_rows($result_auth);
-						$aff_rows = $aff_rows + $inprocres_auth;
-			}  			
-		}
-
+		$key_q = $_POST['key'];
         $mdate = $_POST['mdate'];
         $editor = $_POST['editor'];
         $title = $_POST['title'];
@@ -38,20 +23,56 @@
         $cite = $_POST['cite'];
         $note = $_POST['note'];
         $crossref = $_POST['crossref'];
-        
-        $query_add;
-        if ($mdate != '') {
-        $query_add = "INSERT INTO dblp.inproceedings (key, mdate, editor, title, pages, year, number, month, url, ee, cdrom, cite, note, crossref) VALUES ('$key_q', '$mdate', '$editor', '$title', '$pages', '$year', '$number', '$month', '$url', '$ee', '$cdrom', '$cite', '$note', '$crossref');"; } 
-        else {
-            $query_add = "INSERT INTO dblp.inproceedings (key, editor, title, pages, year, number, month, url, ee, cdrom, cite, note, crossref) VALUES ('$key_q', '$editor', '$title', '$pages', '$year', '$number', '$month', '$url', '$ee', '$cdrom', '$cite', '$note', '$crossref');";
+        $authors = array();
+        foreach($_POST as $key => $value) {
+                if (preg_match("/author/", $key)) {
+                        array_push($authors, $value);
+                }
         }
-        $result_add = pg_query($d, $query_add);
-		$inprocres_add = pg_affected_rows($result_add);
-		$aff_rows = $aff_rows + $inprocres_add;
-            
-      
-        echo ("$aff_rows rows have been affected");
+
+        $authorsStr = "";
+        for ($j = 0; $j < count($authors); $j++){
+                if ($j == count($authors)-1) {
+                        $authorsStr = $authorsStr . $authors[$j];
+                } else {
+                        $authorsStr = $authorsStr . $authors[$j] . ";";
+                }
+        }
+
+        /*public Record(Record record) {
+            this.mdate = record.mdate;
+            this.key = record.key;
+            this.publtype = record.publtype;
+            this.reviewid = record.reviewid;
+            this.rating = record.rating;
+            this.authors = record.authors;
+            this.editor = record.editor;
+            this.title = record.title;
+            this.booktitle = record.booktitle;
+            this.pages = record.pages;
+            this.year = record.year;
+            this.address = record.address;
+            this.volume = record.volume;
+            this.journal = record.journal;
+            this.number = record.number;
+            this.month = record.month;
+            this.url = record.url;
+            this.ee = record.ee;
+            this.cdrom = record.cdrom;
+            this.cite = record.cite;
+            this.publisher = record.publisher;
+            this.note = record.note;
+            this.crossref = record.crossref;
+            this.isbn = record.isbn;
+            this.series = record.series;
+            this.school = record.school;
+            this.chapter = record.chapter;
+        }*/
+
+        $st = "insert into inproceeding values $mdate $key_q null null null $authorsStr $editor $title null $pages $year null null null $number $month $url $ee $cdrom $cite null $note $crossref null null null null\n";
+        include('../socket_conn.inc.php');
+
+        echo ($message);
         session_write_close();
-        pg_close($d);
 ?>
 

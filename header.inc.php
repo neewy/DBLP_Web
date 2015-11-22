@@ -4,8 +4,8 @@
 
 	<!-- Optional theme 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<script src="js/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="css/pure-min.css">
 	<link href="css/hover.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<!-- Latest compiled and minified JavaScript 
@@ -23,7 +23,7 @@
 	<link href="css/jquery-editable.css" rel="stylesheet"/>
 	<script src="js/jquery-editable-poshytip.js"></script>
 	<link href="css/flippant.css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery.tablesorter.js"></script> 
+    <script type="text/javascript" src="js/jquery.tablesorter.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<style type="text/css">
     .container { margin-top: 2em; }

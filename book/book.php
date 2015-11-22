@@ -10,7 +10,6 @@
                             <option>Key</option>
                             <option value="mdate">Date</option>
                             <option>Editor</option>
-                            <option>Author</option>
                             <option>Title</option>
                             <option>Year</option>
                             <option>Journal</option>
@@ -21,9 +20,6 @@
                            
                         </select>
                         <input type="text" id="book-search-value" class="pure-input-1-3" placeholder="Search value">
-                        <label for="book-match">
-                            <input id="book-match" type="checkbox"> Exact match
-                        </label>
                         <a id="book_search" class="pure-button pure-button-primary">Search</a>
                     </fieldset>
                 </form>

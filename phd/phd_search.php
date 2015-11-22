@@ -1,104 +1,31 @@
-<?php 
-	session_start();
-	if(isset($_SESSION['login_user'])){
-		
-		$field = strtolower($_POST['field']);
-		$value = $_POST['value'];
-        $match = $_POST['match'];
-        
-        $query;
-        
-        include('../dbconnection.inc.php');        
-        if ($match === "true"){
-            if ($field === "mdate") {
-                $query = "SELECT
-              phdthesis.mdate, 
-              phdthesis.title, 
-              phdthesis.pages, 
-              phdthesis.year, 
-              phdthesis.school
-            FROM 
-              dblp.phdthesis
-            WHERE mdate='$value';";
-            } else if ($field === "author") {
-                $query = "SELECT
-              phdthesis.mdate, 
-              phdthesis.title, 
-              phdthesis.pages, 
-              phdthesis.year, 
-              phdthesis.school
-            FROM 
-              dblp.phdthesis
-            JOIN dblp.phdthesis_author ON phdthesis.key = phdthesis_author.key
-            WHERE $field LIKE '$value';";
-            } else {
-                $query = "SELECT
-              phdthesis.mdate, 
-              phdthesis.title, 
-              phdthesis.pages, 
-              phdthesis.year, 
-              phdthesis.school
-            FROM 
-              dblp.phdthesis
-            WHERE $field LIKE '$value';";
-            }
-        } else {
-            if ($field === "mdate") {
-                $query = "SELECT
-              phdthesis.mdate, 
-              phdthesis.title, 
-              phdthesis.pages, 
-              phdthesis.year, 
-              phdthesis.school
-            FROM 
-              dblp.phdthesis
-            WHERE mdate='%$value%';";
-            } else if ($field === "author") {
-                $query = "SELECT
-              phdthesis.mdate, 
-              phdthesis.title, 
-              phdthesis.pages, 
-              phdthesis.year, 
-              phdthesis.school
-            FROM 
-              dblp.phdthesis
-            JOIN dblp.phdthesis_author ON phdthesis.key = phdthesis_author.key
-            WHERE $field LIKE '%$value%';";
-            } else {
-                $query = "SELECT
-              phdthesis.mdate, 
-              phdthesis.title, 
-              phdthesis.pages, 
-              phdthesis.year, 
-              phdthesis.school
-            FROM 
-              dblp.phdthesis
-            WHERE $field LIKE '%$value%';";
-            }
-        }
-		$result = pg_query($d, $query);
-		
-		while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
-			echo '\t<tr role="row">\n';
-			foreach ($line as $col_value) {
-				echo "\t\t<td>$col_value</td>\n";
-			}
-			echo "\t</tr>\n";
-			}
-        
-        
-        $rows = pg_num_rows($result);
-        if ($rows === 1) {
-            echo ("<script>");
-            echo ("$('#top-legend').html(\"Showing single result \")");
-            echo ("</script>");
-        } else {
-            echo ("<script>");
-            echo ("$('#top-legend').html(\"Showing $rows results \")");
-            echo ("</script>");
-        }
-        
-		session_write_close();
-		pg_close($d);
+<?php
+session_start();
+if(isset($_SESSION['login_user'])){
+
+    $field = strtolower($_POST['field']);
+    $value = pg_escape_string($_POST['value']);
+
+    if ($field === "key") {
+        $st = "select * from phdthesis where $field = ;$value; 1 0\n";
+    } else {
+        $st = "select * from phdthesis where $field = ;$value; 10 0\n";
+    }
+    include('../socket_conn.inc.php');
+    foreach ($finalArray as $key => $value) {
+        echo '\t<tr role="row">\n';
+        $arraySock = json_decode($value, true);
+        echo "\t\t<td>$arraySock[date]</td>\n";
+        echo "\t\t<td>$arraySock[title]</td>\n";
+        echo "\t\t<td>$arraySock[pages]</td>\n";
+        echo "\t\t<td>$arraySock[year]</td>\n";
+        echo "\t\t<td>$arraySock[school]</td>\n";
+        echo "\t</tr>\n";
+    }
+
+    echo ("<script>");
+    echo ("$('#top-legend').html(\"Showing 1488 results \")");
+    echo ("</script>");
+
+    session_write_close();
 	}
 ?>

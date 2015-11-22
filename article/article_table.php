@@ -26,39 +26,40 @@
         
         $offset = $_SESSION['article_offset'];
         		
-			include('../dbconnection.inc.php');
-		$query = "SELECT 
-		  article.key, 
-		  article.mdate, 
-		  article.title, 
-		  article.year, 
-		  article.journal, 
-		  article.volume, 
-		  article.number
-		FROM 
-		  dblp.article
-		LIMIT 50
-		OFFSET $offset;";
-		$result = pg_query($d, $query);
+		//include('../dbconnection.inc.php');
 		
-		while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
-			echo '\t<tr role="row">\n';
-			foreach ($line as $col_value) {
-				echo "\t\t<td>$col_value</td>\n";
-			}
-			echo "\t</tr>\n";
-			}
-        
-        $query2 = "SELECT COUNT(*) FROM dblp.article;";
-        $result2 = pg_query($d, $query2);
-        $row2 = pg_fetch_row($result2);
-        echo ("<script>");
-        echo ("$('#top-legend').html(\"Showing 50 results with offset $offset of $row2[0] records\")");
-        echo ("</script>");
+		// $query = "SELECT 
+		  // article.key, 
+		  // article.mdate, 
+		  // article.title, 
+		  // article.year, 
+		  // article.journal, 
+		  // article.volume, 
+		  // article.number
+		// FROM 
+		  // dblp.article
+		// LIMIT 50
+		// OFFSET ;";
+		//$result = pg_query($d, $query);
+		$st="select key mdate title year journal volume number from article 50 $offset\n";
+	include('../socket_conn.inc.php');
+	foreach ($finalArray as $key => $value) {
+		echo '\t<tr role="row">\n';
+		$arraySock = json_decode($value, true);
+		echo "\t\t<td>$arraySock[key]</td>\n";
+		echo "\t\t<td>$arraySock[mdate]</td>\n";
+		echo "\t\t<td>$arraySock[title]</td>\n";
+		echo "\t\t<td>$arraySock[year]</td>\n";
+		echo "\t\t<td>$arraySock[journal]</td>\n";
+		echo "\t\t<td>$arraySock[volume]</td>\n";
+		echo "\t\t<td>$arraySock[number]</td>\n";
+		echo "\t</tr>\n";
+	}	
+
         echo ("<script>");
         echo ("$(\"#sortTable\").tablesorter();");
         echo ("</script>");
 		session_write_close();
-		pg_close($d);
+		//pg_close($d);
 	}
 ?>

@@ -24,38 +24,24 @@
 		}
 	} 
 	$offset = $_SESSION['book_offset'];
-		include('../dbconnection.inc.php');
-	$query = "SELECT
-	  book.editor,	
-	  book.title,
-	  book.mdate,
-	  book.year,   
-	  book.isbn
-	FROM 
-	  dblp.book
-	ORDER BY editor ASC
-	LIMIT 50
-	OFFSET $offset;";
-	$result = pg_query($d, $query);
-	
-	while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
-		echo '\t<tr role="row">\n';
-		foreach ($line as $col_value) {
-			echo "\t\t<td>$col_value</td>\n";
-		}
-		echo "\t</tr>\n";
-		}
 
-    $query2 = "SELECT COUNT(*) FROM dblp.book;";
-        $result2 = pg_query($d, $query2);
-        $row2 = pg_fetch_row($result2);
-        echo ("<script>");
-        echo ("$('#top-legend').html(\"Showing 50 results with offset $offset of $row2[0] records\")");
-        echo ("</script>");
+    $st="select editor title mdate year isbn from book 50 $offset\n";
+	include('../socket_conn.inc.php');
+	foreach ($finalArray as $key => $value) {
+		echo '\t<tr role="row">\n';
+		$arraySock = json_decode($value, true);
+		echo "\t\t<td>$arraySock[editor]</td>\n";
+		echo "\t\t<td>$arraySock[title]</td>\n";
+		echo "\t\t<td>$arraySock[mdate]</td>\n";
+		echo "\t\t<td>$arraySock[year]</td>\n";
+		echo "\t\t<td>$arraySock[isbn]</td>\n";
+		echo "\t</tr>\n";
+	}    
+
         echo ("<script>");
         echo ("$(\"#sortTable\").tablesorter();");
         echo ("</script>");
 	session_write_close();
-	pg_close($d);
+	//pg_close($d);
     }
 ?>

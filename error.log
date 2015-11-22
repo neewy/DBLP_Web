@@ -1,0 +1,281 @@
+[18-Nov-2015 23:08:13 Europe/Moscow] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 77
+[18-Nov-2015 23:14:36 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 72
+[18-Nov-2015 23:23:56 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 43
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:47 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:56 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:24:57 Europe/Moscow] PHP Warning:  Illegal string offset 'volume' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 73
+[18-Nov-2015 23:29:19 Europe/Moscow] PHP Parse error:  syntax error, unexpected ')' in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 72
+[18-Nov-2015 23:41:33 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 90
+[18-Nov-2015 23:41:45 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[18-Nov-2015 23:41:46 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 90
+[18-Nov-2015 23:43:24 Europe/Moscow] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: timeout expired in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[18-Nov-2015 23:44:50 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[18-Nov-2015 23:48:24 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[18-Nov-2015 23:48:25 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 74
+[18-Nov-2015 23:48:41 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 75
+[18-Nov-2015 23:48:43 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 75
+[18-Nov-2015 23:48:49 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[18-Nov-2015 23:48:50 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\OpenServer\OpenServer\domains\dmd.local\article\article_socket_table.php on line 75
+[18-Nov-2015 23:49:47 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[18-Nov-2015 23:49:49 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 13:17:58 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 13:23:55 Europe/Moscow] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: timeout expired in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 13:24:00 Europe/Moscow] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: timeout expired in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 13:41:09 Europe/Moscow] PHP Warning:  pg_fetch_array() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\article\article_page.php on line 91
+[19-Nov-2015 13:41:09 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\article\article_page.php on line 253
+[19-Nov-2015 13:41:10 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article_table.php on line 3
+[19-Nov-2015 13:41:10 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article.php on line 2
+[19-Nov-2015 13:42:59 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[19-Nov-2015 13:46:57 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[19-Nov-2015 14:06:37 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:43 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:44 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:46 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:49 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:52 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:53 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:56 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:06:59 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:07:02 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:07:16 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:16:13 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:16:25 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:06 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:27 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:28 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:31 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:32 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:33 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:34 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:35 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:37 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:19:38 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 55
+[19-Nov-2015 14:20:10 Europe/Moscow] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: timeout expired in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 14:20:56 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 56
+[19-Nov-2015 14:21:03 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 56
+[19-Nov-2015 14:28:48 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[19-Nov-2015 14:28:48 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:28:48 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\inproceeding\inproceeding_table.php on line 57
+[19-Nov-2015 14:28:49 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:28:50 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:36:47 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:36:47 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 56
+[19-Nov-2015 14:36:48 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:36:49 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:37:25 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:37:25 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 56
+[19-Nov-2015 14:37:26 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:37:27 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:38:47 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:38:48 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:38:49 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:39:38 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:44:17 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_table.php on line 48
+[19-Nov-2015 14:44:18 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_table.php on line 56
+[19-Nov-2015 14:45:41 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:46:47 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:46:48 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:47:23 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:48:12 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 14:48:25 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 14:51:42 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[19-Nov-2015 14:51:43 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[19-Nov-2015 14:51:49 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\mastersthesis\mastersthesis_table.php on line 32
+[19-Nov-2015 14:51:56 Europe/Moscow] PHP Warning:  pg_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 14:55:04 Europe/Moscow] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: timeout expired in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[19-Nov-2015 15:20:36 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[20-Nov-2015 17:14:40 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[20-Nov-2015 17:19:30 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[20-Nov-2015 18:56:20 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[20-Nov-2015 18:56:20 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article.php on line 2
+[20-Nov-2015 18:56:20 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article_table.php on line 3
+[20-Nov-2015 18:56:20 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article.php on line 2
+[20-Nov-2015 18:56:20 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article_table.php on line 3
+[20-Nov-2015 18:56:20 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\index.php on line 4
+[20-Nov-2015 18:58:08 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[20-Nov-2015 18:58:08 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 84
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 90
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 109
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 117
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 125
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 133
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 141
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 149
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 157
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 165
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 173
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 181
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 189
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 197
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 205
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 213
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 221
+[20-Nov-2015 19:12:46 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\book\book_page.php on line 229
+[20-Nov-2015 19:12:47 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[20-Nov-2015 19:19:18 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 17
+[20-Nov-2015 19:19:18 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[21-Nov-2015 08:57:02 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 08:57:14 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 08:57:18 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 09:01:32 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 09:01:33 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 09:01:34 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 11:48:24 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\inproceeding\inproceeding_page.php on line 207
+[21-Nov-2015 14:54:59 Europe/Moscow] PHP Fatal error:  Call to undefined function shutdown() in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 23
+[21-Nov-2015 15:01:20 Europe/Moscow] PHP Warning:  socket_create() expects parameter 3 to be long, string given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 10
+[21-Nov-2015 15:01:35 Europe/Moscow] PHP Warning:  socket_create() expects parameter 3 to be long, string given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 10
+[21-Nov-2015 15:05:15 Europe/Moscow] PHP Warning:  socket_write() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 2
+[21-Nov-2015 15:05:15 Europe/Moscow] PHP Warning:  socket_recv() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 4
+[21-Nov-2015 15:05:15 Europe/Moscow] PHP Warning:  socket_shutdown() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 10
+[21-Nov-2015 15:05:15 Europe/Moscow] PHP Warning:  socket_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:05:25 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_header.inc.php on line 13
+[21-Nov-2015 15:05:41 Europe/Moscow] PHP Warning:  socket_write() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 2
+[21-Nov-2015 15:05:41 Europe/Moscow] PHP Warning:  socket_recv() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 4
+[21-Nov-2015 15:05:41 Europe/Moscow] PHP Warning:  socket_shutdown() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 10
+[21-Nov-2015 15:05:41 Europe/Moscow] PHP Warning:  socket_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:05:44 Europe/Moscow] PHP Warning:  socket_write() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 2
+[21-Nov-2015 15:05:44 Europe/Moscow] PHP Warning:  socket_recv() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 4
+[21-Nov-2015 15:05:44 Europe/Moscow] PHP Warning:  socket_shutdown() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 10
+[21-Nov-2015 15:05:44 Europe/Moscow] PHP Warning:  socket_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:05:47 Europe/Moscow] PHP Warning:  socket_write() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 2
+[21-Nov-2015 15:05:47 Europe/Moscow] PHP Warning:  socket_recv() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 4
+[21-Nov-2015 15:05:47 Europe/Moscow] PHP Warning:  socket_shutdown() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 10
+[21-Nov-2015 15:05:47 Europe/Moscow] PHP Warning:  socket_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:05:49 Europe/Moscow] PHP Warning:  socket_write() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 2
+[21-Nov-2015 15:05:49 Europe/Moscow] PHP Warning:  socket_recv() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 4
+[21-Nov-2015 15:05:49 Europe/Moscow] PHP Warning:  socket_shutdown() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 10
+[21-Nov-2015 15:05:49 Europe/Moscow] PHP Warning:  socket_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:14:16 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 15:14:35 Europe/Moscow] PHP Warning:  stream_set_timeout(): supplied resource is not a valid stream resource in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 20
+[21-Nov-2015 15:14:35 Europe/Moscow] PHP Warning:  stream_set_timeout(): supplied resource is not a valid stream resource in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 20
+[21-Nov-2015 15:14:46 Europe/Moscow] PHP Warning:  stream_set_timeout(): supplied resource is not a valid stream resource in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 20
+[21-Nov-2015 15:14:49 Europe/Moscow] PHP Warning:  stream_set_timeout(): supplied resource is not a valid stream resource in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 20
+[21-Nov-2015 15:15:05 Europe/Moscow] PHP Warning:  stream_set_timeout() expects parameter 1 to be resource, boolean given in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 20
+[21-Nov-2015 15:15:16 Europe/Moscow] PHP Warning:  stream_set_timeout(): supplied resource is not a valid stream resource in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 20
+[21-Nov-2015 15:18:00 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 13
+[21-Nov-2015 15:18:14 Europe/Moscow] PHP Warning:  stream_socket_shutdown(): supplied resource is not a valid stream resource in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 20
+[21-Nov-2015 15:23:32 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 19
+[21-Nov-2015 15:23:34 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 19
+[21-Nov-2015 15:32:00 Europe/Moscow] PHP Warning:  socket_set_option():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 29
+[21-Nov-2015 15:32:05 Europe/Moscow] PHP Warning:  socket_set_option():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 29
+[21-Nov-2015 15:32:56 Europe/Moscow] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: timeout expired in C:\OpenServer\OpenServer\domains\dmd.local\dbconnection.inc.php on line 2
+[21-Nov-2015 15:38:17 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 73
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 79
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 98
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 106
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 114
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 122
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 130
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 138
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 146
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 154
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 162
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 170
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 178
+[21-Nov-2015 15:40:15 Europe/Moscow] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\phd\phd_page.php on line 186
+[21-Nov-2015 15:40:16 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:51:27 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 15:59:48 Europe/Moscow] PHP Warning:  pg_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\proceeding\proceeding_page.php on line 214
+[21-Nov-2015 16:01:46 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 16:02:21 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 16:12:32 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 16:16:06 Europe/Moscow] PHP Warning:  include(../socket_send.inc.php.php): failed to open stream: No such file or directory in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 3
+[21-Nov-2015 16:16:06 Europe/Moscow] PHP Warning:  include(../socket_send.inc.php.php): failed to open stream: No such file or directory in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 3
+[21-Nov-2015 16:16:06 Europe/Moscow] PHP Warning:  include(): Failed opening '../socket_send.inc.php.php' for inclusion (include_path='.;c:/openserver/openserver/modules/php/PHP-5.5;c:/openserver/openserver/modules/php/PHP-5.5/PEAR/pear') in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 3
+[21-Nov-2015 16:16:06 Europe/Moscow] PHP Warning:  socket_write() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 10
+[21-Nov-2015 16:16:06 Europe/Moscow] PHP Warning:  socket_write() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 10
+[21-Nov-2015 16:16:06 Europe/Moscow] PHP Warning:  socket_close() expects parameter 1 to be resource, null given in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 15
+[21-Nov-2015 16:22:36 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[21-Nov-2015 16:32:18 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[21-Nov-2015 19:28:10 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 23:11:26 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article_table.php on line 3
+[21-Nov-2015 23:13:26 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article_table.php on line 3
+[21-Nov-2015 23:13:26 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article.php on line 2
+[21-Nov-2015 23:13:26 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\OpenServer\domains\dmd.local\article\article.php on line 2
+[21-Nov-2015 23:27:22 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[21-Nov-2015 23:37:44 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 14
+[22-Nov-2015 00:00:54 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:00:55 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[22-Nov-2015 00:12:09 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:26:08 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:27:47 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:29:06 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:35:34 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:38:08 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:38:09 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[22-Nov-2015 00:42:04 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:42:06 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[22-Nov-2015 00:45:14 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[22-Nov-2015 00:45:35 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[22-Nov-2015 00:47:10 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 00:59:36 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 01:00:25 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 01:01:35 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 01:02:49 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 01:05:26 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 01:05:49 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 01:22:33 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 02:05:23 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[22-Nov-2015 02:09:14 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 02:15:39 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 02:17:14 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 02:18:50 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 02:28:55 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 02:31:48 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_insert.php on line 27
+[22-Nov-2015 02:33:36 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 02:33:50 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 14
+[22-Nov-2015 02:33:54 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 14
+[22-Nov-2015 02:34:53 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket.php on line 19
+[22-Nov-2015 16:50:09 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 17:30:45 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_insert.php on line 27
+[22-Nov-2015 17:30:45 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_insert.php on line 27
+[22-Nov-2015 17:30:45 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\OpenServer\OpenServer\domains\dmd.local\incollection\incollection_insert.php on line 27
+[22-Nov-2015 17:37:49 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 15
+[22-Nov-2015 18:26:44 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\book\book_update.php on line 17
+[22-Nov-2015 18:27:05 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_send.inc.php on line 11
+[22-Nov-2015 18:27:32 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11
+[22-Nov-2015 18:28:54 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 17
+[22-Nov-2015 18:35:40 Europe/Moscow] PHP Warning:  socket_recv():  in C:\OpenServer\OpenServer\domains\dmd.local\article\article_update.php on line 17
+[22-Nov-2015 18:50:54 Europe/Moscow] PHP Warning:  socket_connect():  in C:\OpenServer\OpenServer\domains\dmd.local\socket_conn.inc.php on line 11

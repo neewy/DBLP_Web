@@ -4,12 +4,25 @@
 		
 		$field = strtolower($_POST['field']);
 		$value = $_POST['value'];
-        $match = $_POST['match'];
-        
-        $query;
-        
-			include('../dbconnection.inc.php');
-        if ($match === "true"){
+        if ($field === "key") {
+            $st = "select * from article where $field = ;$value; 1 0\n";
+        } else {
+            $st = "select * from article where $field = ;$value; 10 0\n";
+        }
+        include('../socket_conn.inc.php');
+        foreach ($finalArray as $key => $value) {
+            echo '\t<tr role="row">\n';
+            $arraySock = json_decode($value, true);
+            echo "\t\t<td>$arraySock[key]</td>\n";
+            echo "\t\t<td>$arraySock[mdate]</td>\n";
+            echo "\t\t<td>$arraySock[title]</td>\n";
+            echo "\t\t<td>$arraySock[year]</td>\n";
+            echo "\t\t<td>$arraySock[journal]</td>\n";
+            echo "\t\t<td>$arraySock[volume]</td>\n";
+            echo "\t\t<td>$arraySock[number]</td>\n";
+            echo "\t</tr>\n";
+        }
+        /*if ($match === "true"){
             if ($field === "mdate") {
                 $query = "SELECT 
               article.key, 
@@ -87,30 +100,11 @@
               dblp.article
             WHERE $field LIKE '%$value%';";
             }
-        }
-		$result = pg_query($d, $query);
-		
-		while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
-			echo '\t<tr role="row">\n';
-			foreach ($line as $col_value) {
-				echo "\t\t<td>$col_value</td>\n";
-			}
-			echo "\t</tr>\n";
-			}
-        
-        
-        $rows = pg_num_rows($result);
-        if ($rows === 1) {
+        }*/
+
             echo ("<script>");
-            echo ("$('#top-legend').html(\"Showing single result \")");
-            echo ("</script>");
-        } else {
-            echo ("<script>");
-            echo ("$('#top-legend').html(\"Showing $rows results \")");
-            echo ("</script>");
-        }
-        
+            echo ("$('#top-legend').html(\"Showing 10 results \")");
+
 		session_write_close();
-		pg_close($d);
 	}
 ?>

@@ -1,0 +1,6 @@
+<?php
+	include('socket_send.inc.php');
+	$st = "exit\n";
+	$sent = socket_write($sock, $st, 2048);
+	socket_close($sock);
+?>

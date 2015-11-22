@@ -2,8 +2,7 @@
 		<a class="pure-menu-heading" href="/index.php">DBLP PMS</a>
         <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="/browse.php" class="pure-menu-link">Browse</a></li>
-            <?php if(isset($_SESSION['login_user']) AND isset($_SESSION['role']) AND $_SESSION['role'] === "admin"){ 
-            echo('<li class="pure-menu-item"><a href="/query.php" class="pure-menu-link">Query</a></li>');
+            <?php if(isset($_SESSION['login_user']) AND isset($_SESSION['role']) AND $_SESSION['role'] === "admin"){
             echo('<li class="pure-menu-item"><a href="/settings.php" class="pure-menu-link">Settings</a></li>');
              } ?>
 			<?php 

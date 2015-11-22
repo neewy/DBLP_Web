@@ -1,29 +1,14 @@
 <?php session_start();
 
-include('../dbconnection.inc.php');		
-		$key_q = $_POST['key'];
-		$aff_rows = 0;
-
-        $query_del = "DELETE FROM dblp.incollection_author WHERE key LIKE '$key_q'";
-		$result_del = pg_query($d, $query_del);
-		$inprocres_del = pg_affected_rows($result_del);
-		$aff_rows = $aff_rows + $inprocres_del;
-		
-        foreach($_POST as $key => $value) {
-            if ($_POST[$key] === '') {
-                $value = 'null';
-            }
+        foreach($_POST as &$value) {
+                if ($value === "") {
+                        $value = "null";
+                } else {
+                        $value = str_replace(' ', '_', $value);
+                }
         }
 
-		foreach($_POST as $key => $value) {
-			if (preg_match("/author/", $key)) {
-						$query_auth = "INSERT INTO dblp.incollection_author VALUES ('$key_q','$value');";
-						$result_auth = pg_query($d, $query_auth);
-						$inprocres_auth = pg_affected_rows($result_auth);
-						$aff_rows = $aff_rows + $inprocres_auth;
-			}  			
-		}
-
+		$key_q = $_POST['key'];
         $title = $_POST['title'];
         $mdate = $_POST['mdate'];
         $pages = $_POST['pages'];
@@ -37,20 +22,27 @@ include('../dbconnection.inc.php');
         $note = $_POST['note'];
         $crossref = $_POST['crossref'];
         $chapter = $_POST['chapter'];
-        
-        $query_add;
-        if ($mdate != '') {
-        $query_add = "INSERT INTO dblp.incollection (key, mdate, title, pages, year, number, url, ee, cdrom, cite, publisher, note, crossref, chapter) VALUES ('$key_q', '$mdate', '$title', '$pages', '$year', '$number', '$url', '$ee', '$cdrom', '$cite', '$publisher', '$note', '$crossref', '$chapter');";} 
-        else {
-            $query_add = "INSERT INTO dblp.incollection (key, title, pages, year, number, url, ee, cdrom, cite, publisher, note, crossref, chapter) VALUES ('$key_q', '$title', '$pages', '$year', '$number', '$url', '$ee', '$cdrom', '$cite', '$publisher', '$note', '$crossref', '$chapter');";
+        $authors = array();
+        foreach($_POST as $key => $value) {
+                if (preg_match("/author/", $key)) {
+                        array_push($authors, $value);
+                }
         }
-        $result_add = pg_query($d, $query_add);
-		$inprocres_add = pg_affected_rows($result_add);
-		$aff_rows = $aff_rows + $inprocres_add;
-            
-      
-        echo ("$aff_rows rows have been affected");
+
+        $authorsStr = "";
+        for ($j = 0; $j < count($authors); $j++){
+                if ($j == count($authors)-1) {
+                        $authorsStr = $authorsStr . $authors[$j];
+                } else {
+                        $authorsStr = $authorsStr . $authors[$j] . ";";
+                }
+        }
+
+        $st = "insert into incollection values $mdate $key_q null null null $authorsStr null $title null $pages $year null null null $number null $url $ee $cdrom $cite $publisher $note $crossref null null null $chapter\n";
+        include('../socket_conn.inc.php');
+
+        echo ($message);
+
         session_write_close();
-        pg_close($d);
 ?>
 

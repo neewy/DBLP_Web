@@ -23,8 +23,10 @@
 		}
 	} 
 	$offset = $_SESSION['incollection_offset'];
-	include('../dbconnection.inc.php');   
-	$query = "SELECT  
+    $st="select key title year from incollection 50 $offset\n";
+    //$st="groupby incollection title 10 $offset\n";
+	include('../socket_conn.inc.php');
+	/*$query = "SELECT  
 	  incollection.mdate, 
 	  incollection.title, 
 	  incollection.year
@@ -32,26 +34,21 @@
 	  dblp.incollection  
 	GROUP BY incollection.title, incollection.mdate, incollection.year
 	LIMIT 50 
-	OFFSET $offset;";
-	$result = pg_query($d, $query);
+	OFFSET $offset;";*/
+
 	
-	while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
+    foreach ($finalArray as $key => $value) {
 		echo '\t<tr role="row">\n';
-		foreach ($line as $col_value) {
-			echo "\t\t<td>$col_value</td>\n";
-		}
+		$arraySock = json_decode($value, true);
+		echo "\t\t<td>$arraySock[key]</td>\n";
+		echo "\t\t<td>$arraySock[title]</td>\n";
+		echo "\t\t<td>$arraySock[year]</td>\n";
 		echo "\t</tr>\n";
-		}
-        $query2 = "SELECT COUNT(*) FROM dblp.incollection;";
-        $result2 = pg_query($d, $query2);
-        $row2 = pg_fetch_row($result2);
-        echo ("<script>");
-        echo ("$('#top-legend').html(\"Showing 50 results with offset $offset of $row2[0] records\")");
-        echo ("</script>");
+	}
+
         echo ("<script>");
         echo ("$(\"#sortTable\").tablesorter();");
         echo ("</script>");
 	session_write_close();
-	pg_close($d);
     }
 ?>

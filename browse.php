@@ -7,9 +7,9 @@
 		?>
 	</head>
 	<body>
-	<?php 
+		<?php
 			include('topnav.inc.php');
-	?>
+		?>
 	<div class="pure-g" id="content_wrapper">
 		<div id="menu" class="pure-u-1-8">
 			<div class="pure-menu">
@@ -54,6 +54,18 @@
 				$.ajax({
 					   type: "POST",
 					   url: 'article/article_table.php',
+					   success: function(data)
+					   {
+						   $(".datatable_wrapper").fadeIn();
+						   $('#datatable_body').html(data);  
+					   }
+				});
+			});
+        $('#article_socket_link').click(function(event){
+				$('#content').load('article/article.php');
+				$.ajax({
+					   type: "POST",
+					   url: 'article/article_socket_table.php',
 					   success: function(data)
 					   {
 						   $(".datatable_wrapper").fadeIn();
@@ -135,6 +147,7 @@
 			});
 			$("#next_div").click(function(event){
 				var hash_link = window.location.hash.substr(1);
+				console.log(hash_link);
 				$('.datatable_wrapper').fadeOut().hide();
 				event.preventDefault();
 				event.stopPropagation();
@@ -165,6 +178,7 @@
 					   }
 				   });
 			});
+			
 	</script>
 	<script src="js/login-top.js">
 	</script>
@@ -265,12 +279,11 @@
         $(document).on('click', "#article_search", function(event) {
             var field = document.querySelector('#article-field').value;
             var value = document.querySelector('#article-search-value').value;
-            var match = document.querySelector('input#article-match').checked;
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
 					   url: 'article/article_search.php',
-					   data: ({"field" : field, "value" : value, "match": match}),
+					   data: ({"field" : field, "value" : value}),
 					   success: function(data)
 					   {
 						   $('#content').fadeIn();
@@ -282,12 +295,11 @@
         $(document).on('click', "#book_search", function(event) {
             var field = document.querySelector('#book-field').value;
             var value = document.querySelector('#book-search-value').value;
-            var match = document.querySelector('input#book-match').checked;
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
 					   url: 'book/book_search.php',
-					   data: ({"field" : field, "value" : value, "match": match}),
+					   data: ({"field" : field, "value" : value}),
 					   success: function(data)
 					   {
 						   $('#content').fadeIn();
@@ -299,12 +311,11 @@
         $(document).on('click', "#incollection_search", function(event) {
             var field = document.querySelector('#incollection-field').value;
             var value = document.querySelector('#incollection-search-value').value;
-            var match = document.querySelector('input#incollection-match').checked;
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
 					   url: 'incollection/incollection_search.php',
-					   data: ({"field" : field, "value" : value, "match": match}),
+					   data: ({"field" : field, "value" : value}),
 					   success: function(data)
 					   {
 						   $('#content').fadeIn();
@@ -316,12 +327,11 @@
         $(document).on('click', "#inproceeding_search", function(event) {
             var field = document.querySelector('#inproceeding-field').value;
             var value = document.querySelector('#inproceeding-search-value').value;
-            var match = document.querySelector('input#inproceeding-match').checked;
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
 					   url: 'inproceeding/inproceeding_search.php',
-					   data: ({"field" : field, "value" : value, "match": match}),
+					   data: ({"field" : field, "value" : value}),
 					   success: function(data)
 					   {
 						   $('#content').fadeIn();
@@ -333,12 +343,11 @@
         $(document).on('click', "#mastersthesis_search", function(event) {
             var field = document.querySelector('#mastersthesis-field').value;
             var value = document.querySelector('#mastersthesis-search-value').value;
-            var match = document.querySelector('input#mastersthesis-match').checked;
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
 					   url: 'mastersthesis/mastersthesis_search.php',
-					   data: ({"field" : field, "value" : value, "match": match}),
+					   data: ({"field" : field, "value" : value}),
 					   success: function(data)
 					   {
 						   $('#content').fadeIn();
@@ -350,12 +359,11 @@
         $(document).on('click', "#phd_search", function(event) {
             var field = document.querySelector('#phd-field').value;
             var value = document.querySelector('#phd-search-value').value;
-            var match = document.querySelector('input#phd-match').checked;
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
 					   url: 'phd/phd_search.php',
-					   data: ({"field" : field, "value" : value, "match": match}),
+					   data: ({"field" : field, "value" : value}),
 					   success: function(data)
 					   {
 						   $('#content').fadeIn();
@@ -367,12 +375,11 @@
         $(document).on('click', "#proceeding_search", function(event) {
             var field = document.querySelector('#proceeding-field').value;
             var value = document.querySelector('#proceeding-search-value').value;
-            var match = document.querySelector('input#proceeding-match').checked;
             $('#content').fadeOut().hide();
             $.ajax({
 					   type: "POST",
 					   url: 'proceeding/proceeding_search.php',
-					   data: ({"field" : field, "value" : value, "match": match}),
+					   data: ({"field" : field, "value" : value}),
 					   success: function(data)
 					   {
 						   $('#content').fadeIn();
@@ -381,6 +388,14 @@
 					   }
 				   });	
         });
+		$( window ).unload(function() {
+			console.log("hello");
+			$.ajax({
+					   type: "POST",
+					   url: 'commit.php',
+					   "async": false
+				   });
+		});
 	</script>
 	</body>
 </html>

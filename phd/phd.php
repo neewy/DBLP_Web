@@ -9,14 +9,10 @@
                                 <option>Key</option>
                                 <option value="mdate">Date</option>
                                 <option>Title</option>
-                                <option>Author</option>
                                 <option>Year</option>
                                 <option>School</option>
                             </select>
                             <input type="text" id="phd-search-value" class="pure-input-1-3" placeholder="Search value">
-                            <label for="phd-match">
-                                <input id="phd-match" type="checkbox"> Exact match
-                            </label>
                             <a id="phd_search" class="pure-button pure-button-primary">Search</a>
                         </fieldset>
                 </form>	

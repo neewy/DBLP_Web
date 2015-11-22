@@ -11,7 +11,6 @@
                             <option value="mdate">Date</option>
                             <option>Title</option>
                             <option>Year</option>
-                            <option>Author</option>
                             <option>Journal</option>
                             <option>Volume</option>
                             <option>Number</option>
@@ -20,9 +19,6 @@
                             <option value="crossref">Cross-reference key</option>
                         </select>
                         <input type="text" id="article-search-value" class="pure-input-1-3" placeholder="Search value">
-                        <label for="article-match">
-                            <input id="article-match" type="checkbox"> Exact match
-                        </label>
                         <a id="article_search" class="pure-button pure-button-primary">Search</a>
                     </fieldset>
                 </form>

@@ -10,16 +10,12 @@
                             <option>Key</option>
                             <option value="mdate">Date</option>
                             <option>Title</option>
-                            <option>Author</option>
                             <option>Year</option>
                             <option value="cite">Citation key</option>
                             <option>Publisher</option>
                             <option value="crossref">Cross-reference key</option>
                         </select>
                         <input type="text" id="incollection-search-value" class="pure-input-1-3" placeholder="Search value">
-                        <label for="incollection-match">
-                            <input id="incollection-match" type="checkbox"> Exact match
-                        </label>
                         <a id="incollection_search" class="pure-button pure-button-primary">Search</a>
                     </fieldset>
                 </form>

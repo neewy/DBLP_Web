@@ -9,7 +9,6 @@
                         <select id="inproceeding-field">
                             <option>Key</option>
                             <option value="mdate">Date</option>
-                            <option>Author</option>
                             <option>Title</option>
                             <option>Year</option>
                             <option>Number</option>
@@ -19,17 +18,15 @@
                             <option>Chapter</option>
                         </select>
                         <input type="text" id="inproceeding-search-value" class="pure-input-1-3" placeholder="Search value">
-                        <label for="inproceeding-match">
-                            <input id="inproceeding-match" type="checkbox"> Exact match
-                        </label>
                         <a id="inproceeding_search" class="pure-button pure-button-primary">Search</a>
                     </fieldset>
                 </form>
 				<table id="sortTable" class="datatable pure-table pure-table-bordered tablesorter">
 					<thead>
 						<tr>
+							<th>Key</th>
 							<th>Title</th>
-							<th>Year</th>	
+							<th>Year</th>
 						</tr>
 					</thead>
 					<tbody id="datatable_body">
