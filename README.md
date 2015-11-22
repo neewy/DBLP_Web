@@ -24,15 +24,12 @@
 <li>Apache or nginx HTTP-server installed</li>
 <li>PHP with version not less than 5.5 installed</li>
 <li>PostgreSQL pgsql extension (that is bundled with PHP standart package) should be installed (just delete semicolumn in php.ini line -> extension=php_pgsql.dll)</li>
+<li>Java Runtime Environment with version > 1.8 </li>
 </ul><br>
 <i>NB: it is highly recommended to use OpenServer package, available for Windows environment. You can edit its php.ini file this way: right-click the tray icon, then choose "additional" -> "configuration" -> "PHP-5.5"</i>
 <br><br>
 2. Create the database for users with provided dump.sql. It is recommended to use dbname "web", user "postgres" and password "postgres" for testing purposes.
-3. Populate publication database with DBLP parser, that was made by our team -> https://github.com/BulatMukhutdinov/DMD_Java4Life
-NB: Use console JAR file, it is awesome!
-4. After setting up the environment, edit the dbconnection.inc.php (for publications database) and dbconnection2.inc.php (for accounts database) according to your PostgreSQL connection credentials.
+3. Populate publication database with DBLP parser, that was made by our team -> https://github.com/BulatMukhutdinov/DMD_Java4Life (NB: Use branch named 'Phase Three')
+4. After setting up the environment, edit the socket_conn.inc.php, socket_send.inc.php (for publications database) and dbconnection2.inc.php (for accounts database) according to your PostgreSQL connection credentials and Java Socket server.
 
-OR
-
-You can test it online at <a href="http://lolcathost.ru/">lolcathost.ru</a>
 Enjoy!

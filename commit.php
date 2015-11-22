@@ -5,7 +5,7 @@
 	$st = "commit\n";
 	
 	$PORT = 6666; //the port on which we are connecting to the "remote" machine
-	$HOST = "10.91.43.113"; //the ip of the remote machine (in this case it's the same machine)
+	$HOST = "127.0.0.1"; //the ip of the remote machine (in this case it's the same machine)
 
 	$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) //Creating a TCP socket
 	or die("error: could not create socket\n");
